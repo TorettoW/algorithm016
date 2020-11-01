@@ -8,6 +8,11 @@
    Trie树的平均高度h为len，所以Trie树的查询复杂度为O（h）=O（len）  
 # 二、并查集（DisjoinSet）  
 ## 1)并查集模板  
+    动态连通性  
+    UF算法基本操作：union(int p,int q)、boolean connected（int p,int q)、int count（)  
+    使用森林（若干树）来表示图的动态连接性，使用数组来具体实现这个森林
 ## 2）C++中并查集的实现  
+
+   
 
   
